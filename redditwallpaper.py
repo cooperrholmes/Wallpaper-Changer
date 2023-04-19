@@ -48,7 +48,7 @@ def rando_wallpaper():
     windll.user32.SystemParametersInfoW(SPI_SETDESKWALLPAPER, 0, image_path, 0)
 
 
-interval = 1 * 1 # X minutes
+interval = 1 * 60 # X minutes
 while True:
         rando_wallpaper()
         time.sleep(interval)
